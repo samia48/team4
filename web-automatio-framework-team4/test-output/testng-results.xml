@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-15T10:14:39 EST" name="globalsqa test" finished-at="2023-01-15T10:14:53 EST" duration-ms="14391">
+    <groups>
+    </groups>
+    <test started-at="2023-01-15T10:14:39 EST" name="globalsql test" finished-at="2023-01-15T10:14:53 EST" duration-ms="14391">
+      <class name="tests.TestLogin">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@10993713]" started-at="2023-01-15T10:14:39 EST" name="setUp" finished-at="2023-01-15T10:14:49 EST" duration-ms="9587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularjs-protractor-practice-site/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:tests.TestLogin@10993713]" started-at="2023-01-15T10:14:49 EST" name="validLogin" finished-at="2023-01-15T10:14:50 EST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestLogin@10993713]" started-at="2023-01-15T10:14:50 EST" name="tearDown" finished-at="2023-01-15T10:14:53 EST" duration-ms="3643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestLogin -->
+    </test> <!-- globalsql test -->
+  </suite> <!-- globalsqa test -->
+</testng-results>
